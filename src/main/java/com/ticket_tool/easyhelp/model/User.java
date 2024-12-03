@@ -2,8 +2,6 @@ package com.ticket_tool.easyhelp.model;
 
 import java.sql.Date;
 
-import javax.persistence.*;
-
 import org.springframework.format.annotation.DateTimeFormat;
 
 import jakarta.annotation.Generated;
