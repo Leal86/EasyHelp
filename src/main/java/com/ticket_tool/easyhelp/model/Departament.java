@@ -7,8 +7,8 @@ public class Departament {
 	@Id
 	private int idDepartament;
 	
-	@Column(name = "nameDepartment", nullable = false) // Nome da coluna no banco
-	private String nameDepartment;
+	@Column(name = "nameDepartament", nullable = false) // Nome da coluna no banco
+	private String nameDepartament;
 	
 	@Column(name = "acronym", nullable = false) // Nome da coluna no banco
 	private String acronym;
@@ -16,6 +16,9 @@ public class Departament {
 	@Column(name = "phoneNumber", nullable = false) // Nome da coluna no banco
 	private String phoneNumber;
 
+
+	//Getters and Setters
+	
 	public int getIdDepartament(){
 		return idDepartament;
 	}
@@ -24,12 +27,12 @@ public class Departament {
 		this.idDepartament = idDepartament;
 	}
 
-	public String getNameDepartment(){
-		return nameDepartment;
+	public String getNameDepartament(){
+		return nameDepartament;
 	}
 
-	public void setNameDepartament(String nameDepartment){
-		this.nameDepartment = nameDepartment;
+	public void setNameDepartament(String nameDepartament){
+		this.nameDepartament = nameDepartament;
 	}
 
 	public String getAcronym(){
@@ -44,8 +47,8 @@ public class Departament {
 		return phoneNumber;
 	}
 
-	public void setPhoneNumber( String phoneNumeber){
-		this.phoneNumber = phoneNumeber;
+	public void setPhoneNumber( String phoneNumber){
+		this.phoneNumber = phoneNumber;
 	}
 
 }
