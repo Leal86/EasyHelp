@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface DepartamentRepository extends JpaRepository<Departament, Long> {
 
-    Departament findByEmail(String email);
+    Departament findByName(String nameDepartament);
 }
