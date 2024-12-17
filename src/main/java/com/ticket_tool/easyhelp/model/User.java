@@ -2,18 +2,14 @@ package com.ticket_tool.easyhelp.model;
 
 import java.sql.Date;
 
-import org.springframework.format.annotation.DateTimeFormat;
-
-import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import jakarta.persistence.TemporalType;
+
 
 @Entity //Marca a classe como uma entidade JPA
-@Table(name = "users") //Nome da tabela no banco
+@Table(name = "Users") //Nome da tabela no banco
 public class User {
 
     @Id

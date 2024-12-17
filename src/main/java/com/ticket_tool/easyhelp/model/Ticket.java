@@ -3,8 +3,12 @@ package com.ticket_tool.easyhelp.model;
 import java.sql.Date;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
+@Entity //Marca a classe como uma entidade JPA
+@Table (name = "Ticket") //Nome da tabela no banco
 public class Ticket {
     @Id
     private int idTicket;

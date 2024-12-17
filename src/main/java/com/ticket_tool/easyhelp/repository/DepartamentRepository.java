@@ -3,7 +3,7 @@ package com.ticket_tool.easyhelp.repository;
 import com.ticket_tool.easyhelp.model.Departament;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface DepartamentRepository extends JpaRepository<Departament, Long> {
+public interface DepartamentRepository extends JpaRepository<Departament, Integer> {
 
-    Departament findByName(String nameDepartament);
+    Departament findByNameDepartament(String nameDepartament);
 }
