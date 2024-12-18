@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
-    <link rel="stylesheet" href="../static/css/estilo.css">
-    <link rel="stylesheet" href="../static/css/telaLogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
 </head>
-<body class="fundoLogin">
-    <h1 class="azul">Tela de Login</h1>
+<body class="fundo-login">
+    <div class="container">
+        
+        <div class="background-formulario">
+
+            <img src="../static/images/perfil.png" alt="Avatar do utilizador">
+
+            <form action="">
+                <div>
+                    <input class="email" type="text" name="nome" id="inome" placeholder="Digite seu e-mail">
+                </div>
+                
+                <div>
+                    <input class="password" type="password" name="Password" id="ipassword" placeholder="Digite sua password">
+                </div>
+                
+                <div>
+                    <input class="submit" type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

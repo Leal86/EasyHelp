@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url("../css/reset.css");
+@import url("./login.css");
+
+:root {
+    --cor-de-fundo:#D6D6D6;
+    --branco: #FFFFFF;
+    --roxo: #2b2f77bd;
+    --azul-5:#101A26;
+    --azul-4:#284259;
+    --azul-3:#5B83A6;
+    --azul-2:#169EF2;
+    --azul-1:#3DE0F2;
+
+    --azul-degrade: linear-gradient(97.54deg, var(--azul-5) 35.49%, var(--roxo) 165.37%);
+    --fonte-principal:"Quicksand";
+    --fonte-secundaria: "Duru Sans";
+}
+
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 300 to 700
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
